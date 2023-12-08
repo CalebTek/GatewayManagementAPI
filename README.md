@@ -2,6 +2,8 @@
 
 This project provides a RESTful API for managing gateways and their associated devices. It allows users to store information about gateways, validate their attributes, and perform operations on peripheral devices.
 
+For the frontend counterpart, please refer to the [GatewayManagementUI](https://github.com/CalebTek/GatewayManagementUI.git) repository.
+
 ## Features
 
 - Create a new gateway
@@ -28,3 +30,45 @@ Ensure you have the necessary .NET SDK installed.
 ```bash
 $ dotnet build
 $ dotnet run
+```
+
+## API Endpoints
+
+### Create Gateway
+
+```http
+POST /api/gateway/gateways
+```
+
+Create a new gateway by providing JSON data in the request body.
+
+Example:
+
+```json
+{
+  "serialNumber": "GW123",
+  "name": "Main Gateway",
+  "ipv4Address": "192.168.1.1"
+}
+```
+
+### Get All Gateways
+
+```http
+GET /api/gateway/gateways
+```
+
+Retrieve information about all stored gateways.
+
+### Get Gateway by ID
+
+```http
+GET /api/gateway/gateways/{id}
+```
+
+Retrieve details about a single gateway by providing its ID.
+
+## Contributions
+
+Contributions are welcome. Please fork the repository, make your changes, and submit a pull request.
+
