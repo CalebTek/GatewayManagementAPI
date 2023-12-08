@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GatewayManagement.Domain", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GatewayManagement.Infrastructure", "GatewayManagement.Infrastructure\GatewayManagement.Infrastructure.csproj", "{E2D38F65-162E-44C8-B964-2FDE7B81DCA0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GatewayManagement.Application", "GatewayManagement.Application\GatewayManagement.Application.csproj", "{DB6B0EC4-F2C0-45D6-9555-9B80302674EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GatewayManagement.Test", "GatewayManagement.Test\GatewayManagement.Test.csproj", "{6F2FE889-ED74-4EC3-ABCF-119B5F230C6E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{E2D38F65-162E-44C8-B964-2FDE7B81DCA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E2D38F65-162E-44C8-B964-2FDE7B81DCA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E2D38F65-162E-44C8-B964-2FDE7B81DCA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB6B0EC4-F2C0-45D6-9555-9B80302674EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB6B0EC4-F2C0-45D6-9555-9B80302674EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB6B0EC4-F2C0-45D6-9555-9B80302674EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB6B0EC4-F2C0-45D6-9555-9B80302674EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F2FE889-ED74-4EC3-ABCF-119B5F230C6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F2FE889-ED74-4EC3-ABCF-119B5F230C6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F2FE889-ED74-4EC3-ABCF-119B5F230C6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F2FE889-ED74-4EC3-ABCF-119B5F230C6E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
