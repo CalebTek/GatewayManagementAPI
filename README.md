@@ -2,6 +2,8 @@
 
 This project provides a RESTful API for managing gateways and their associated devices. It allows users to store information about gateways, validate their attributes, and perform operations on peripheral devices.
 
+For the frontend counterpart, please refer to the [GatewayManagementUI](https://github.com/CalebTek/GatewayManagementUI.git) repository.
+
 ## Features
 
 - Create a new gateway
